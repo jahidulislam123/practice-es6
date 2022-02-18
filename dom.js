@@ -13,14 +13,16 @@ function addbackgroundColor() {
 
 }
 
-document.getElementById('add-friend').addEventListener('click', function () {
-    const container = document.getElementById('friend-container');
-    const friendDiv = document.createElement('div');
-    friendDiv.classList.add('friend');
-    friendDiv.innerHTML = '<h3 class="friend-name">friend-4</h3>
-    <p>Laudantium vero natus at reiciendis?</p>'
+
+
+// document.getElementById('add-friend').addEventListener('click', function () {
+//     const container = document.getElementById('friend-container');
+//     const friendDiv = document.createElement('div');
+//     friendDiv.classList.add('friend');
+//     friendDiv.innerHTML = '<h3 class="friend-name">friend-4</h3>
+//     <p>Laudantium vero natus at reiciendis?</p>'
     
-    container.appendChild(friendDiv);
+//     container.appendChild(friendDiv);
     
 
-})
+// })
