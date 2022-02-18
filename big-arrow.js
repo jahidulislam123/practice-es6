@@ -23,3 +23,8 @@ const doMath =(x,y)=>{
 }
 
 const total =doMath(34,4);
+
+document.getElementById('my-btn').addEventListener(event =>{
+
+    
+})
