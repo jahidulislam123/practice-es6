@@ -8,6 +8,7 @@ numbers.push(45);
 console.log(numbers);
 
 // refference or pointer is here 
-const number2 =numbers;
+const number2 =[...numbers,88];
 numbers.push(55);
+console.log(numbers);
 console.log(number2);
