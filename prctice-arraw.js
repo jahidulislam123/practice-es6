@@ -24,5 +24,21 @@ console.log(resulArrow);
 
 const getName = ()=> 'jahid';
 const name =getName();
-console.log(name);;
+console.log(name);
+
+
+// moloto arraw function er return korte hoyna but onnek gula jodi kori tahole korte hoy ?
+const doMath=(z,a)=>{
+    const sum =z+a;
+    return sum;
+}
+const result = doMath(4,5);
+console.log(result);
+
+
+//maximum jevabe ber korbo ami 
+const numbers =[34,56,43,22,45];
+const max = Math.max(...numbers);
+console.log(max);
+
 
